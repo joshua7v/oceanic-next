@@ -1,3 +1,8 @@
+# About this fork
+
+This is a Oceanic-Next.vim fork for personal use case. Basically I silented most of the highlights except for some
+real important ones.
+
 # Oceanic-Next.vim
 
 Oceanic-Next.vim is a neovim theme inspired by [Oceanic Next for Sublime](https://github.com/voronianski/oceanic-next-color-scheme).
