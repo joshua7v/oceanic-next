@@ -147,6 +147,11 @@ endfunction
   call s:hi('Type'                               , s:yellow , ''       , 'None'      , '')
   call s:hi('Typedef'                            , s:base07 , ''       , 'None'      , '')
 
+  " C
+  call s:hi('cStorageClass'                      , s:yellow , ''       , 'None'      , '')
+  call s:hi('cFormat'                            , s:cyan   , ''       , 'None'      , '')
+  call s:hi('cSpecial'                           , s:cyan   , ''       , 'None'      , '')
+
   " LSP
   call s:hi('LspDiagnosticsDefaultError'         , ''       , ''       , ''          , '')
   call s:hi('LspDiagnosticsSignError'            , s:red    , ''       , ''          , '')
@@ -291,6 +296,7 @@ endfunction
   call s:hi('typescriptObjectStaticMethod'       , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptDateMethod'               , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptTypeParameter'            , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptBOMLocationMethod'        , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptExport'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptImport'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptDefault'                  , s:yellow , s:none   , ''          , '')
