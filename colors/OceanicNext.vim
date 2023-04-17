@@ -298,6 +298,10 @@ endfunction
   call s:hi('typescriptTypeParameter'            , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptBOMLocationMethod'        , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptConsoleMethod'            , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptBOMNavigatorProp'         , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptRegExpMethod'             , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptPromiseStaticMethod'      , s:base07 , s:none   , ''          , '')
+
   call s:hi('typescriptExport'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptImport'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptDefault'                  , s:yellow , s:none   , ''          , '')
