@@ -234,6 +234,7 @@ endfunction
 
   call s:hi('javaScriptType'                      , s:base07 , s:none   , ''          , '')
   call s:hi('javaScriptMessage'                   , s:base07 , s:none   , ''          , '')
+  call s:hi('javaScriptMember'                    , s:base07 , s:none   , ''          , '')
   call s:hi('javaScriptGlobal'                    , s:base07    , ''       , ''          , '')
   call s:hi('javaScriptFunction'                  , s:yellow , s:none   , ''          , '')
   call s:hi('javaScriptSpecial'                   , s:red    , ''       , ''          , '')
@@ -253,6 +254,7 @@ endfunction
   " call s:hi('markdownError'                    , s:base05 , s:base00 , ''          , '')
 
   " typescript
+  call s:hi('typescriptBOMHistoryMethod'         , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptParens'                   , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptExport'                   , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptDefault'                  , s:base07 , s:none   , ''          , '')
@@ -273,6 +275,7 @@ endfunction
   call s:hi('typescriptEndColons'                , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptArrayMethod'              , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptES6SetMethod'             , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptES6SetProp'               , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptFunctionMethod'           , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptDOMEventMethod'           , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptJSONStaticMethod'         , s:base07 , s:none   , ''          , '')
@@ -311,6 +314,7 @@ endfunction
   call s:hi('typescriptVariable'                 , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptAliasKeyword'             , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptAmbientDeclaration'       , s:yellow , s:none   , ''          , '')
+  call s:hi('typescriptCastKeyword'              , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptTry'                      , s:red    , s:none   , ''          , '')
   call s:hi('typescriptExceptions'               , s:red    , s:none   , ''          , '')
   call s:hi('tsxFragment'                        , s:base07 , s:none   , ''          , '')
