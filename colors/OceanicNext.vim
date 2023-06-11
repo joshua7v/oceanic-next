@@ -232,10 +232,11 @@ endfunction
   call s:hi('htmlSpecialTagName'                 , s:yellow , ''       , ''          , '')
   call s:hi('htmlArg'                            , s:cyan   , ''       , ''          , '')
 
-  call s:hi('javaScriptType'                      , s:base07 , s:none   , ''          , '')
   call s:hi('javaScriptMessage'                   , s:base07 , s:none   , ''          , '')
   call s:hi('javaScriptMember'                    , s:base07 , s:none   , ''          , '')
   call s:hi('javaScriptGlobal'                    , s:base07    , ''       , ''          , '')
+  call s:hi('javaScriptReserved'                  , s:base07    , ''       , ''          , '')
+  call s:hi('javaScriptType'                      , s:yellow , s:none   , ''          , '')
   call s:hi('javaScriptFunction'                  , s:yellow , s:none   , ''          , '')
   call s:hi('javaScriptSpecial'                   , s:red    , ''       , ''          , '')
   " call s:hi('javaScript'                       , s:base05 , ''       , ''          , '')
@@ -255,6 +256,7 @@ endfunction
 
   " typescript
   call s:hi('typescriptBOMHistoryMethod'         , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptRegExpProp'               , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptParens'                   , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptExport'                   , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptDefault'                  , s:base07 , s:none   , ''          , '')
