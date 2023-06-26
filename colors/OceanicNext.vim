@@ -204,7 +204,7 @@ endfunction
   " call s:hi('csContextualStatement'            , s:purple , ''       , ''          , '')
   " call s:hi('csNewDecleration'                 , s:red    , ''       , ''          , '')
   " call s:hi('cOperator'                        , s:cyan   , ''       , ''          , '')
-  " call s:hi('cPreCondit'                       , s:purple , ''       , ''          , '')
+  call s:hi('cPreCondit'                         , s:red , ''       , ''          , '')
 
   " call s:hi('cssColor'                         , s:cyan   , ''       , ''          , '')
   " call s:hi('cssBraces'                        , s:base05 , ''       , ''          , '')
@@ -256,6 +256,7 @@ endfunction
   " call s:hi('markdownError'                    , s:base05 , s:base00 , ''          , '')
 
   " typescript
+  call s:hi('typescriptTypeReference'            , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptBOMHistoryMethod'         , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptRegExpProp'               , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptFileListMethod'           , s:base07 , s:none   , ''          , '')
@@ -311,6 +312,7 @@ endfunction
   call s:hi('typescriptCacheMethod'              , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptMathStaticMethod'         , s:base07 , s:none   , ''          , '')
 
+  call s:hi('typescriptModule'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptGlobal'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptExport'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptImport'                   , s:yellow , s:none   , ''          , '')
