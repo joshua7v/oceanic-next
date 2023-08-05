@@ -256,6 +256,7 @@ endfunction
   " call s:hi('markdownError'                    , s:base05 , s:base00 , ''          , '')
 
   " typescript
+  call s:hi('typescriptBOMWindowProp'            , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptTypeReference'            , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptBOMHistoryMethod'         , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptRegExpProp'               , s:base07 , s:none   , ''          , '')
@@ -276,7 +277,6 @@ endfunction
   call s:hi('typescriptDOMEventProp'             , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptDOMDocMethod'             , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptURLUtilsProp'             , s:base07 , s:none   , ''          , '')
-  call s:hi('typescriptBOMWindowProp'            , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptEndColons'                , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptArrayMethod'              , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptES6SetMethod'             , s:base07 , s:none   , ''          , '')
@@ -311,7 +311,10 @@ endfunction
   call s:hi('typescriptPromiseStaticMethod'      , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptCacheMethod'              , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptMathStaticMethod'         , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptRequestProp'              , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptDOMFormMethod'            , s:base07 , s:none   , ''          , '')
 
+  call s:hi('typescriptBOMWindowProp'            , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptModule'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptGlobal'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptExport'                   , s:yellow , s:none   , ''          , '')
