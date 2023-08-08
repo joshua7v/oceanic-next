@@ -314,6 +314,7 @@ endfunction
   call s:hi('typescriptRequestProp'              , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptDOMFormMethod'            , s:base07 , s:none   , ''          , '')
 
+  call s:hi('typescriptExportType'               , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptBOMWindowProp'            , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptModule'                   , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptGlobal'                   , s:yellow , s:none   , ''          , '')
