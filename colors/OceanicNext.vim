@@ -313,7 +313,9 @@ endfunction
   call s:hi('typescriptMathStaticMethod'         , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptRequestProp'              , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptDOMFormMethod'            , s:base07 , s:none   , ''          , '')
+  call s:hi('typescriptPaymentProp'              , s:base07 , s:none   , ''          , '')
 
+  call s:hi('typescriptImportType'               , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptExportType'               , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptBOMWindowProp'            , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptModule'                   , s:yellow , s:none   , ''          , '')
@@ -333,6 +335,12 @@ endfunction
   call s:hi('tsxTag'                             , s:base07 , s:none   , ''          , '')
   call s:hi('tsxCloseString'                     , s:base07 , s:none   , ''          , '')
   call s:hi('tsxAttrib'                          , s:base07 , s:none   , ''          , '')
+
+  call s:hi('jsxOpenPunct'                       , s:base07 , s:none   , ''          , '')
+  call s:hi('jsxTagName'                         , s:base07 , s:none   , ''          , '')
+  call s:hi('jsxClosePunct'                      , s:base07 , s:none   , ''          , '')
+  call s:hi('jsxCloseString'                     , s:base07 , s:none   , ''          , '')
+  call s:hi('jsxAttrib'                          , s:base07 , s:none   , ''          , '')
 
   call s:hi('NeomakeErrorSign'                   , s:red    , s:base00 , ''          , '')
   call s:hi('NeomakeWarningSign'                 , s:yellow , s:base00 , ''          , '')
