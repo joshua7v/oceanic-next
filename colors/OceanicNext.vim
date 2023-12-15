@@ -342,6 +342,9 @@ endfunction
   call s:hi('jsxCloseString'                     , s:base07 , s:none   , ''          , '')
   call s:hi('jsxAttrib'                          , s:base07 , s:none   , ''          , '')
 
+  " zig
+  call s:hi('zigVarDecl'                           , s:yellow , s:none   , ''          , '')
+
   call s:hi('NeomakeErrorSign'                   , s:red    , s:base00 , ''          , '')
   call s:hi('NeomakeWarningSign'                 , s:yellow , s:base00 , ''          , '')
   call s:hi('NeomakeInfoSign'                    , s:white  , s:base00 , ''          , '')
