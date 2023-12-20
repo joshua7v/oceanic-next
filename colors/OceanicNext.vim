@@ -235,11 +235,14 @@ endfunction
   call s:hi('javaScriptMessage'                   , s:base07 , s:none   , ''          , '')
   call s:hi('javaScriptMember'                    , s:base07 , s:none   , ''          , '')
   call s:hi('javaScriptGlobal'                    , s:base07 , ''       , ''          , '')
+  call s:hi('jsArrowFunction'                     , s:base07 , ''       , ''          , '')
   call s:hi('javaScriptType'                      , s:yellow , s:none   , ''          , '')
   call s:hi('javaScriptFunction'                  , s:yellow , s:none   , ''          , '')
   call s:hi('javascriptKeyword'                   , s:yellow , s:none   , ''          , '')
   call s:hi('javaScriptSpecial'                   , s:red    , ''       , ''          , '')
   call s:hi('javascriptOperator'                  , s:yellow    , ''       , ''          , '')
+  call s:hi('jsGlobalObjects'                     , s:yellow    , ''       , ''          , '')
+  call s:hi('jsStorageClass'                      , s:yellow    , ''       , ''          , '')
   " call s:hi('javaScript'                       , s:base05 , ''       , ''          , '')
   " call s:hi('javaScriptNumber'                 , s:orange , ''       , ''          , '')
   " call s:hi('javaScriptBraces'                 , s:base05 , ''       , ''          , '')
@@ -316,6 +319,7 @@ endfunction
   call s:hi('typescriptPaymentProp'              , s:base07 , s:none   , ''          , '')
   call s:hi('typescriptServiceWorkerProp'        , s:base07 , s:none   , ''          , '')
 
+  call s:hi('typescriptClassStatic'              , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptImportType'               , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptExportType'               , s:yellow , s:none   , ''          , '')
   call s:hi('typescriptModule'                   , s:yellow , s:none   , ''          , '')
@@ -342,8 +346,14 @@ endfunction
   call s:hi('jsxCloseString'                     , s:base07 , s:none   , ''          , '')
   call s:hi('jsxAttrib'                          , s:base07 , s:none   , ''          , '')
 
+  " scss
+  call s:hi('scssInclude'                        , s:yellow , s:none   , ''          , '')
+  call s:hi('scssMixin'                          , s:yellow , s:none   , ''          , '')
+  call s:hi('scssSelectorName'                   , s:base07 , s:none   , ''          , '')
+
   " zig
-  call s:hi('zigVarDecl'                           , s:yellow , s:none   , ''          , '')
+  call s:hi('zigVarDecl'                         , s:yellow , s:none   , ''          , '')
+  call s:hi('zigMacro'                           , s:yellow , s:none   , ''          , '')
 
   call s:hi('NeomakeErrorSign'                   , s:red    , s:base00 , ''          , '')
   call s:hi('NeomakeWarningSign'                 , s:yellow , s:base00 , ''          , '')
