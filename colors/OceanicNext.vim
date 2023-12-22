@@ -354,6 +354,10 @@ endfunction
   " zig
   call s:hi('zigVarDecl'                         , s:yellow , s:none   , ''          , '')
   call s:hi('zigMacro'                           , s:yellow , s:none   , ''          , '')
+  call s:hi('zigExecution'                       , s:yellow , s:none   , ''          , '')
+
+  " rust
+  call s:hi('rustStorage'                        , s:yellow , s:none   , ''          , '')
 
   call s:hi('NeomakeErrorSign'                   , s:red    , s:base00 , ''          , '')
   call s:hi('NeomakeWarningSign'                 , s:yellow , s:base00 , ''          , '')
