@@ -243,6 +243,7 @@ endfunction
   call s:hi('javascriptOperator'                  , s:yellow    , ''       , ''          , '')
   call s:hi('jsGlobalObjects'                     , s:yellow    , ''       , ''          , '')
   call s:hi('jsStorageClass'                      , s:yellow    , ''       , ''          , '')
+  call s:hi('jsOperatorKeyword'                   , s:yellow , s:none   , ''          , '')
   " call s:hi('javaScript'                       , s:base05 , ''       , ''          , '')
   " call s:hi('javaScriptNumber'                 , s:orange , ''       , ''          , '')
   " call s:hi('javaScriptBraces'                 , s:base05 , ''       , ''          , '')
