@@ -226,10 +226,11 @@ endfunction
 
   call s:hi('htmlBold'                           , s:yellow , ''       , ''          , '')
   call s:hi('htmlItalic'                         , s:purple , ''       , ''          , '')
-  call s:hi('htmlTag'                            , s:cyan   , ''       , ''          , '')
-  call s:hi('htmlEndTag'                         , s:cyan   , ''       , ''          , '')
-  call s:hi('htmlTagName'                        , s:yellow , ''       , ''          , '')
-  call s:hi('htmlSpecialTagName'                 , s:yellow , ''       , ''          , '')
+  call s:hi('htmlEndTag'                         , s:base07   , ''       , ''          , '')
+  call s:hi('htmlTagName'                        , s:base07 , ''       , ''          , '')
+  call s:hi('htmlTag'                            , s:base07   , ''       , ''          , '')
+  call s:hi('htmlTagN'                           , s:base07 , ''       , ''          , '')
+  call s:hi('htmlSpecialTagName'                 , s:base07 , ''       , ''          , '')
   call s:hi('htmlArg'                            , s:cyan   , ''       , ''          , '')
 
   call s:hi('javaScriptMessage'                   , s:base07 , s:none   , ''          , '')
@@ -347,6 +348,9 @@ endfunction
   call s:hi('jsxCloseString'                     , s:base07 , s:none   , ''          , '')
   call s:hi('jsxAttrib'                          , s:base07 , s:none   , ''          , '')
 
+  " astro
+  call s:hi('astroDirectives'                    , s:yellow , s:none   , ''          , '')
+
   " scss
   call s:hi('scssInclude'                        , s:yellow , s:none   , ''          , '')
   call s:hi('scssMixin'                          , s:yellow , s:none   , ''          , '')
@@ -359,6 +363,9 @@ endfunction
 
   " rust
   call s:hi('rustStorage'                        , s:yellow , s:none   , ''          , '')
+
+  " dirvish
+  call s:hi('DirvishArg'                         , s:base07 , s:none   , ''          , '')
 
   call s:hi('NeomakeErrorSign'                   , s:red    , s:base00 , ''          , '')
   call s:hi('NeomakeWarningSign'                 , s:yellow , s:base00 , ''          , '')
