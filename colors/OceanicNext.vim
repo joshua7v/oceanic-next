@@ -348,6 +348,9 @@ endfunction
   call s:hi('jsxCloseString'                     , s:base07 , s:none   , ''          , '')
   call s:hi('jsxAttrib'                          , s:base07 , s:none   , ''          , '')
 
+  " wasm
+  call s:hi('wastModule'                         , s:yellow , s:none   , ''          , '')
+
   " astro
   call s:hi('astroDirectives'                    , s:yellow , s:none   , ''          , '')
 
